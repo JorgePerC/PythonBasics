@@ -2,6 +2,11 @@
 var = 3.5
 var2 = 10
 
+# Para declarar dos variables en una misma linea
+valor1, valor2 = 1,3
+# Igual se pueden mezlar los tipos de datos:
+num, string = 2, "hola"
+
 #Operations
 print(var+var2)
 print(var-var2)
@@ -21,3 +26,11 @@ var4 = input("Dame otro número: ")
 print("Me diste el número ")
 print(int(var3)+int(var4))
 print(float(var3)+float(var4))
+
+# Otros valores:
+binary = int('101001011', 2) # De Binario a Decimal
+print(binary) # Resultado: 331
+hexa = int('A47F2', 16) # De Hexadecimal a Decimal es base usada por el sistema hexadecimal
+print(hexa) # Resultado: 673778
+octal = int('731254', 8) # De octal a Decimal
+print(octal) # Resultado: 242348
