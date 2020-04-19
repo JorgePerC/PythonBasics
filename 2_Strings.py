@@ -1,7 +1,10 @@
 string ='Hello World' #This also works, either way
 string2 = "Hello Jorge"
+string3 = """ In Python, you 
+can have multiple lines string
+"""
 
-print (string, string2)
+print (string, string2, string3)
 
 # funtions to modify Strings
 print(string.upper())
