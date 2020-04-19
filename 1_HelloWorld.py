@@ -1,3 +1,8 @@
+# Esto no es exclusivo de Python, pero:
+      # TODO: es algo que se necesita hacer
+      # FIXME: es algo que se necesita reparar
+      # XXX: es algo que se necesita corregir
+
 # Puedes definir el unicode al inico del documento con:
 # El proósito es elimiar errores por simbolos raros
 # -*-coding:utf-8-*-
@@ -8,7 +13,10 @@ print("Hello World")
 print('Hello World')
 
 print("Hola, los breaks sí funcionan \no no?")
-
+# En caso de que no quieras indicar carácteres especiales
+# mas que el "\", puedes usar RAW
+text = r"debes\de\ver\algo\normal" # Aunque visual falla
+print(text)
 #How to recieve an input
 num= int(input("Inserta edad: "))
 nom= str (input("Pon tu nombre: "))
@@ -19,7 +27,4 @@ apeMaterno= str (input("Pon tu apellido materno: "))
 print("Eres " + nom + " " + apePaterno + " " + apeMaterno +
       " " + ", tienes " + str(num) + " años")
 
-# Esto no es exclusivo de Python, pero:
-      # TODO: es algo que se necesita hacer
-      # FIXME: es algo que se necesita reparar
-      # XXX: es algo que se necesita corregir
+
