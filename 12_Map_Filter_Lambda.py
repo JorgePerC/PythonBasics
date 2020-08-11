@@ -39,3 +39,15 @@ lambda value : value*3
 times_two = lambda value :value*2
 table_2 = list(map(times_two, numbers_1_to_10))
 print(table_2)
+
+# Sets: 
+# Data structure that holds unique values
+# Not necesarily ordered
+set_1 = {1,2,4}
+print(set_1)
+# We add a value
+set_1.add(3)
+print(set_1)
+#We try it again:
+set_1.add(3)
+print(set_1) #Same result, wich means its not added
