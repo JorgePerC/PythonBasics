@@ -11,6 +11,13 @@ print()
 
 # In this case, item represent the value on the list
 for item in lista:
+    if item == "Jorge":
+        # The continue keyword 
+        # "Breaks" the loop in
+        # The condition that it 
+        # is assigned to 
+        # And then finishes the loop
+        continue
     print(item)
 
     
@@ -19,3 +26,8 @@ i = 0
 while i<len(lista):
     print(lista[i])
     i+=1
+
+# People may use an underscore to 
+# iterate without using the values
+# for _ in list:
+#   Something else

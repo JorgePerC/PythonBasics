@@ -37,3 +37,4 @@ with open("file.txt", "r") as archivo:
 
     archivo.seek(position) #postition, changes the value of my pointer
 
+

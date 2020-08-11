@@ -26,3 +26,16 @@ print_nombre(n, False)
 #This in only viable when you call the function
 #It's really helpful when reading your code
 print_nombre(upperCase=False,nombre=n)
+
+
+# In Python, is a convention to use snake_casing when naming a function
+# And also, use a camelCase when doing methods
+
+def ejemplo():
+    """
+    Documentation, explains function, shall be used inside
+    """
+    pass
+
+# If whe want to know more information, we simply do:
+print(ejemplo)
